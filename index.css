@@ -1,4 +1,14 @@
 .logo{
-    width: 1000%;
-    height: 1000%;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 2000vw;
+    height: 2000vh;
+    background-image: url(./dongailbo_logo.svg);
+    background-position: calc(1000vw - 1000vh);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
