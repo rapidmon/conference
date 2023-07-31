@@ -10,6 +10,7 @@ body{
     width: 100vw;
     height: 100vw;
     font-family: 'GmarketSansMedium';
+    position: relative;
 }
 
 .logo-back{
@@ -22,6 +23,7 @@ body{
     transform: translate(2%, -45.5%);
     transition: 0.5s;
     position: relative;
+    transform-origin: top left; 
 }
 
 .main-title{
@@ -62,8 +64,8 @@ body{
 
 .intro-text{
     position: absolute;
-    left: 15%;
-    top: 19%;
+    left: 4.5%;
+    top: 35%;
     font-size: 25px;
     text-shadow: 5px 4px 3px #00000045;
 }
