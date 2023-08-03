@@ -44,7 +44,7 @@ body{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    left: -3%;
+    left: -4%;
     top: 47.5%;
 }
 
@@ -64,8 +64,42 @@ body{
 
 .intro-text{
     position: absolute;
-    left: 4.5%;
-    top: 35%;
+    left: 23%;
+    top: 48%;
     font-size: 25px;
     text-shadow: 5px 4px 3px #00000045;
+}
+
+.intro-text span{
+    display: inline-block;
+    transition: 0.5s ease-in-out;
+}
+
+.intro-text-desc li{
+    position: absolute;
+    width: 13%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 4px 4px 8px 2px #0000006e;
+    word-break: keep-all;
+    transition: 0.5s;
+}
+
+.frontier-desc{
+    left: 29.4%;
+    top: 31%;
+    opacity: 0;
+}
+
+.alpha-desc{
+    left: 38.4%;
+    top: 60%;
+    opacity: 0;
+}
+
+.nd-desc{
+    left: 47.4%;
+    top: 31%;
+    opacity: 0;
 }
