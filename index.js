@@ -864,5 +864,5 @@ future.addEventListener("click", () => {
     thx.style.display = "block";
     setTimeout(() => {
         thx.style.opacity = 1;
-    }, 2000)
+    }, 1000)
 })
