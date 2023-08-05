@@ -541,4 +541,7 @@ body{
     font-size: 150px;
     left: 34%;
     top: 17%;
+    display: none;
+    opacity: 0;
+    transition: 1s;
 }

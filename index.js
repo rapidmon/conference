@@ -21,6 +21,7 @@ const cooperation = document.querySelector(".cooperation");
 const reference = document.querySelector(".reference");
 const previous = document.querySelector(".previous");
 const future = document.querySelector(".future");
+const thx = document.querySelector(".thx");
 const article_desc = document.querySelector(".article-desc");
 const $article_part = document.querySelectorAll(".article-part");
 const $number_wrapper = document.querySelectorAll(".number-wrapper");
@@ -860,4 +861,8 @@ previous.addEventListener("click",()=>{
 
 future.addEventListener("click", () => {
     main.style.transform = "translate(1%, 0.8%) scale(0.005)";
+    thx.style.display = "block";
+    setTimeout(() => {
+        thx.style.opacity = 1;
+    }, 2000)
 })
